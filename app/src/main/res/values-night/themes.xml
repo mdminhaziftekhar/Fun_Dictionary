@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MiwokLanguage" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#241212</item>
+        <item name="colorPrimaryVariant">#241212</item>
+        <item name="colorOnPrimary">#FFF7DA</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#16AFCA</item>
+        <item name="colorSecondaryVariant">#16AFCA</item>
+        <item name="colorOnSecondary">#2F1D1A</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
