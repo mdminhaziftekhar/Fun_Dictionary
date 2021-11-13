@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_item_height"
     xmlns:tools="http://schemas.android.com/tools">
+
     <ImageView
         android:id="@+id/miwok_picture"
         android:layout_width="@dimen/list_item_height"

@@ -37,11 +37,11 @@ public class WordFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return context.getString(R.string.category_colors);
+            return context.getString(R.string.category_numbers);
         } else if (position == 1){
             return context.getString(R.string.category_family_short);
         } else if (position == 2){
-            return context.getString(R.string.category_numbers);
+            return context.getString(R.string.category_colors);
         } else {
             return context.getString(R.string.category_phrases);
         }
